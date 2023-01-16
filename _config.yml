@@ -30,6 +30,7 @@ github_username: OOBN-PL
 # Manual modifications
 author: Ebrahim Aly
 title-logo: /images/pl_logo.png
+license: add
 
 # Build settings
 # inactivated the theme below and using its files by my own
