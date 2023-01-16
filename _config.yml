@@ -29,7 +29,7 @@ github_username: OOBN-PL
 
 # Manual modifications
 author: Ebrahim Aly
-title-logo: /images/pl_logo.png
+title_logo: /images/pl_logo.png
 license: add
 
 # Build settings
