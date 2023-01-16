@@ -28,9 +28,7 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
         {%- if site.license -%}
-        <ul>
-          <li> {%- include license_details.html -%} </li>
-        </ul>
+        {%- include license_details.html -%}
         {%- endif -%}
       </div>
     </div>
