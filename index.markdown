@@ -6,4 +6,5 @@ layout: home
 ---
 
 
-This is the front page of the OOBNPL website
+This is the front page of the OOBNPL website and we here is the OOBNPL structure (using markdown syntax):
+![OOBN PL structure](images/PL_structure.png "The structure of the OOBN PL")
