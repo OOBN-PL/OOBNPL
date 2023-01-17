@@ -1,6 +1,6 @@
 ---
 title: OOBN patterns
-order: 5
+order: "5"
 ---
 
 # Object-Oriented Bayesian Network Patterns

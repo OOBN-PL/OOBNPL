@@ -1,6 +1,6 @@
 ---
 title: Use cases
-order: 1
+order: "1"
 ---
 
 A user of this OOBN PL will fall under one of two categories:
@@ -12,6 +12,8 @@ A user of this OOBN PL will fall under one of two categories:
 {%- assign ps = site.pages | sort_natural: "order" -%}
 <ul>
 {%- for p in ps -%}
+{%- if p.order -%}
 <li>{{- p.title -}}</li>
+{%- endif -%}
 {%- endfor -%}
 </ul>
