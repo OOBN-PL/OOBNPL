@@ -7,6 +7,8 @@ This page will show the patterns categorized based on their family and viewed as
 
 Here I try to use liquid inside md:
 
+<p>
 {%- if site.description -%}
 {{- site.description -}}
 {%- endif -%}
+</p>
