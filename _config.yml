@@ -58,7 +58,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages", "_patterns"]
+include: ["_pages"]
 
 collections:
   patterns:
@@ -82,7 +82,7 @@ defaults:
       permalink: "/:basename"
       author: "ealy"
 
-      
+
 # adding front matter to images
   -
     scope:
