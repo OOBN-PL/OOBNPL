@@ -74,7 +74,7 @@ defaults:
     values:
       layout: "page" 
       permalink: "/:basename"
-      sort_by: order
+      sort_by: "order"
       sort_descending: false
   
   -
