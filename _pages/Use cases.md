@@ -9,7 +9,9 @@ A user of this OOBN PL will fall under one of two categories:
     <li>A pattern language composer who attempts to develope a pattern language related to models' building and modeling techniques</li>
 </ol>
 
-{%- assign ps = site.pages | sort: "order" -%}
+{%- assign ps = site.pages | sort_natural: "order" -%}
+<ul>
 {%- for p in ps -%}
-<li>{{- p -}}</li>
+<li>{{- p.title -}}</li>
 {%- endfor -%}
+</ul>

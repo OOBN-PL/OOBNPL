@@ -1,6 +1,6 @@
 ---
 title: OOBN patterns
-order: 2
+order: 5
 ---
 
 # Object-Oriented Bayesian Network Patterns
@@ -15,4 +15,3 @@ This page will show the patterns categorized based on their family and viewed as
   {%- endfor -%}
 {%- endfor -%}
 </div>
-
