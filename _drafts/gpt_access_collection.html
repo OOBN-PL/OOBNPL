@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="grid">
+    {% for item in site.items %}
+    {% if item.categories contains 'category1' or item.categories contains 'category2' or item.categories contains
+    'category3' %}
+    <a href="{{ item.url }}" class="grid-item">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+        <h2>{{ item.title }}</h2>
+    </a>
+    {% endif %}
+    {% endfor %}
+</div>

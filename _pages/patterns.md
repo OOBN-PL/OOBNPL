@@ -1,14 +1,15 @@
 ---
 layout: page
 title: OOBN patterns
+order: 2
 ---
+
+# Object-Oriented Bayesian Network Patterns
 
 This page will show the patterns categorized based on their family and viewed as a gallery under each category.
 
-Here I try to use liquid inside md:
+## Modeling patterns
 
-<p>
-{%- if site.description -%}
-{{- site.description -}}
-{%- endif -%}
-</p>
+## OOP patterns
+
+## BN patterns

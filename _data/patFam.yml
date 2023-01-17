@@ -1,0 +1,22 @@
+- family: BN
+  patterns:
+    - Almost never
+    - BN augmented structure
+    - BNs Causality
+    - Complexity control
+    - Cross validation
+    - Evidence uncertainty
+    - Generalized Canonical
+    - Latent states
+    - Local dependence confirmation
+    - Making things happen
+    - Synthetic Nodes
+- family: Mod
+  patterns:
+    - Model assumptions statement
+    - Model Blueprint
+- family: OOP
+  patterns:
+    - BNFs linking
+    - Large BN fragmentation
+    - OOBN polymorphism

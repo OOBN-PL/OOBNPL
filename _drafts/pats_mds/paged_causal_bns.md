@@ -1,5 +1,5 @@
 --- 
-layout: page
+family: BN
 title: "BNs Causality"
 --- 
  
@@ -7,7 +7,9 @@ title: "BNs Causality"
 
 **Pattern language family:** BN
 
-**Modeling phase:**
+**Modeling phase:** 1; 2
+
+**Modeling step:** 1; 3; 4
 
 **Problem:**
 
@@ -19,7 +21,7 @@ title: "BNs Causality"
 
 **Solution:**
 
-Networks that represent all the dependencies in the system are **faithful** to the system. and a network that represents both the dependencies and independencies in the system is called a **perfect map** of the system.
+Networks that represent all the dependencies in the system are **faithful** to the system, and a network that represents both the dependencies and independencies in the system is called a **perfect map** of the system.
 
 A causal network is a network where the arcs between the variables identify direct causal relationships between such variables.
 

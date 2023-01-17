@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Use cases
+order: 1
 permalink: /:basename
 ---
 

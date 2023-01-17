@@ -1,8 +1,17 @@
 <a class="site-title" rel="author" href="{{ " /" | relative_url }}">
-    {%- if site.title-logo -%}
-    <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }}" style="height: 100px;"></img> {{
-    site.title | escape }}
-    {%- else -%}
-    {{ site.title | escape }}
-    {%- endif -%}
-  </a>
+  {%- if site.title-logo -%}
+  <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }}" style="height: 100px;"></img> {{
+  site.title | escape }}
+  {%- else -%}
+  {{ site.title | escape }}
+  {%- endif -%}
+</a>
+
+{%- for fam, pats in site.data.patFam -%}
+<h2>{{ fam }}</h2>
+<ul>
+  {% for p in pats %}
+  {{ p }}
+  {%- endfor -%}
+</ul>
+{%- endfor -%}
