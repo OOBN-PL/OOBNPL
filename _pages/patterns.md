@@ -8,8 +8,11 @@ order: 2
 
 This page will show the patterns categorized based on their family and viewed as a gallery under each category.
 
-## Modeling patterns
-
-## OOP patterns
-
-## BN patterns
+<div>
+{%- for fam in site.data.patFam -%}
+<h3>{{ fam.family }}</h3>
+  {% for p in fam.patterns %}
+  <li>{{ p }}</li>
+  {%- endfor -%}
+{%- endfor -%}
+</div>
