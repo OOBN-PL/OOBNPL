@@ -30,7 +30,7 @@ github_username: OOBN-PL
 # Manual modifications
 author: Ebrahim Aly
 title_logo: /images/pl_logo.png
-license: add
+license: true
 
 # Build settings
 # inactivated the theme below and using its files by my own
@@ -58,4 +58,35 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages"]
+include: ["_pages", "_patterns"]
+
+collections:
+  patterns:
+    output: true
+
+
+defaults:
+  -
+    scope:
+      path: "_pages"
+    values:
+      layout: "page" 
+      permalink: "/:basename"
+  
+  -
+    scope:
+      path: "patterns"
+      type: "patterns"
+    values:
+      layout: "page"
+      permalink: "/:basename"
+      author: "ealy"
+
+      
+# adding front matter to images
+  -
+    scope:
+      path: "images"
+    values:
+      image: true 
+
