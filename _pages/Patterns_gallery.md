@@ -37,18 +37,18 @@ This page will show the patterns categorized based on their family and viewed as
 
 ## Patterns with icons
 
-<div>
+<div style="text-align:center; position:relative;">
+<div style="margin:1em">
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" | reverse -%}
   {%- for fam in pats_fams -%}
   <h3>{{- fam.name | append: " patterns" -}}</h3>
-<div class = "picon_container">
     {%- assign pats = fam.items -%}
     {%- for p in pats -%}
       {%- assign pat_name = p.path | split: '/' | last -%}
       {%- assign icon_file = p.icon_path | append: p.icon_name -%}
-         <img src="{{- icon_file | relative_url -}}" alt="{{- icon_file -}} icon" class="p_icon">
-         <p>{{- p.title -}}</p>
+         <img src="{{- icon_file | relative_url -}}" alt="{{- p.title -}} icon" class="p_icon" style="position:absolute; top:0">
+         <p style="position:relative;">{{- p.title -}}</p>
     {%- endfor -%}
-</div>
   {%- endfor -%}
+</div>
 </div>
