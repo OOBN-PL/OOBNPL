@@ -23,25 +23,36 @@ This page will show the patterns categorized based on their family and viewed as
   {%- endfor -%}
 </div>
 
+## Show icon names and file names
+
+<div>
+<ul>
+{%- for item in site.patterns -%}
+{%- assign icf = item.icon_path | append: item.icon_name -%}
+<li>{{- item.name -}} : {{- icf -}}</li>
+{%- endfor -%}
+</ul>
+</div>
+
 ## Patterns with icons
 
-<div class= "picon_container">
+<div>
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" | reverse -%}
   {%- for fam in pats_fams -%}
   <h3>{{- fam.name | append: " patterns" -}}</h3>
-  <ul>
+<div class = "picon_container>
     {%- assign pats = fam.items -%}
     {%- for p in pats -%}
       {%- assign icon_file = p.icon_path | append: p.icon_name -%}
         {%- if icon_file.file.exists -%}
-         <li><img src="{{- icon_file | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon"></li>
+         <img src="{{- icon_file | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon">
         {%- else -%}
           {%- assign def_icon = "images/picons/default_icon.png" -%}
-        <li><img src="{{- def_icon | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon"></li>
+        <img src="{{- def_icon | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon">
           {%- endif -%}
         <p>{{- p.title -}}</p>
     {%- endfor -%}
 
-  </ul>
+</div>
   {%- endfor -%}
 </div>
