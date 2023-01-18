@@ -10,7 +10,7 @@ This page will show the patterns categorized based on their family and viewed as
 ## Group the patterns based on family using the ```group_by``` filter
 
 <div>
-  {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" -%}
+  {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" | reverse -%}
   {%- for fam in pats_fams -%}
   <h3>{{- fam.name | append: " patterns" -}}</h3>
   <ul>
