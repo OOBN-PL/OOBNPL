@@ -41,19 +41,13 @@ This page will show the patterns categorized based on their family and viewed as
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" | reverse -%}
   {%- for fam in pats_fams -%}
   <h3>{{- fam.name | append: " patterns" -}}</h3>
-<div class = "picon_container>
+<div class = "picon_container">
     {%- assign pats = fam.items -%}
     {%- for p in pats -%}
+      {%- assign pat_name = p.path | split: '/' | last -%}
       {%- assign icon_file = p.icon_path | append: p.icon_name -%}
-        {%- if icon_file.file.exists -%}
-         <img src="{{- icon_file | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon">
-        {%- else -%}
-          {%- assign def_icon = "images/picons/default_icon.png" -%}
-        <img src="{{- def_icon | relative_url -}}" alt="{{- p.data.name -}} icon" class="p_icon">
-          {%- endif -%}
-        <p>{{- p.title -}}</p>
+         <img src="{{- icon_file | relative_url -}}" alt="{{- icon_file -}} icon" class="p_icon"><p>{{- p.title -}}</p>
     {%- endfor -%}
-
 </div>
   {%- endfor -%}
 </div>
