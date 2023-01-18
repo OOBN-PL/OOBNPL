@@ -1,6 +1,7 @@
 --- 
 family: BN
 title: "Almost never"
+icon_name: almost_never_ico.png 
 --- 
  
 **Version:** 1.0.0

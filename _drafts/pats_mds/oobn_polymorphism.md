@@ -1,6 +1,7 @@
 --- 
 family: OOP
 title: "OOBN polymorphism"
+icon_name: oobn_polymorphism_ico.png 
 --- 
  
 **Version:** 1.0.0
