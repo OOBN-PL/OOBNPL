@@ -46,7 +46,8 @@ This page will show the patterns categorized based on their family and viewed as
     {%- for p in pats -%}
       {%- assign pat_name = p.path | split: '/' | last -%}
       {%- assign icon_file = p.icon_path | append: p.icon_name -%}
-         <img src="{{- icon_file | relative_url -}}" alt="{{- icon_file -}} icon" class="p_icon"><p>{{- p.title -}}</p>
+         <img src="{{- icon_file | relative_url -}}" alt="{{- icon_file -}} icon" class="p_icon">
+         <p>{{- p.title -}}</p>
     {%- endfor -%}
 </div>
   {%- endfor -%}
