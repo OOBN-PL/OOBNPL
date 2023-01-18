@@ -37,7 +37,7 @@
 <ul>
 -->
 
-<div>
+<!-- <div>
   {%- assign pats_fams = site.patterns | group_by: 'family' -%}
   {%- for fam in pats_fams -%}
   <h3>{{- fam.name | append: " patterns" -}}</h3>
@@ -49,4 +49,31 @@
 
   </ul>
   {%- endfor -%}
+</div> -->
+
+<!-- <div>
+{%- for fam in site.data.patFam -%}
+<h3>{{- fam.family -}}</h3>
+  <ul>
+  {%- for p in site.patterns -%}
+    {%- if p.family == fam.family -%}
+    <li><a href="{{ p.url | relative_url }}">{{- p.title -}}</a></li>
+    {%- endif -%}
+  {%- endfor -%}
+  </ul>
+{%- endfor -%}
 </div>
+-->
+
+<!-- <div>
+{%- for fam in site.data.patFam -%}
+<h3>{{- fam.family | append: " patterns" -}}</h3>
+  <ul>
+  {%- for p in site.patterns -%}
+    {%- if p.family == fam.family -%}
+    <li>{{- p.title -}}</li>
+    {%- endif -%}
+  {%- endfor -%}
+  </ul>
+{%- endfor -%}
+</div> -->
