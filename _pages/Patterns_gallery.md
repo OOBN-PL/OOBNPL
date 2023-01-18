@@ -35,7 +35,7 @@ This page will show the patterns categorized based on their family and viewed as
 </ul>
 </div> -->
 
-## Patterns with icons
+<!-- ## Patterns with icons
 
 <div style="text-align:center; position:relative;">
 <div style="margin:1em">
@@ -51,11 +51,11 @@ This page will show the patterns categorized based on their family and viewed as
     {%- endfor -%}
   {%- endfor -%}
 </div>
-</div>
+</div> -->
 
 ## Using the gallery approach
 
-<h3 class="gallery-header crimson">Patterns Catalogue></h3>
+<h3 class="gallery-header crimson">Patterns Catalogue</h3>
 <div class="gallery container">
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" -%}
   {%- for fam in pats_fams -%}
@@ -64,7 +64,6 @@ This page will show the patterns categorized based on their family and viewed as
       <div class="gallery item">
         {%- assign patterns = fam.items -%}
         {%- for pattern in patterns -%}
-          {%- assign pattern_name = pattern.path | split: '/' | last -%}
           {%- assign icon_file = pattern.icon_path | append: pattern.icon_name -%}
           <img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
           <a href="{{- pattern.url | relative_url -}}"><p class="gallery_item_title">{{- pattern.title-}}</p></a>
