@@ -79,7 +79,6 @@ defaults:
   -
     scope:
       path: "_patterns"
-      type: "patterns"
     values:
       layout: "page"
       author: "ealy"
