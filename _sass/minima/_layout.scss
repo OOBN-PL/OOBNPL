@@ -269,3 +269,14 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.pattern-page-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #8f857d;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}

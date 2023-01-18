@@ -80,7 +80,7 @@ defaults:
     scope:
       path: "_patterns"
     values:
-      layout: "page"
+      layout: "pattern_page"
       author: "ealy"
       icon_path: "images/picons/"
 

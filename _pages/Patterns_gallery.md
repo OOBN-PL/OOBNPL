@@ -47,8 +47,29 @@ This page will show the patterns categorized based on their family and viewed as
       {%- assign pat_name = p.path | split: '/' | last -%}
       {%- assign icon_file = p.icon_path | append: p.icon_name -%}
          <img src="{{- icon_file | relative_url -}}" alt="{{- p.title -}} icon" class="p_icon" style="position:absolute; top:0">
-         <p style="position:relative;">{{- p.title -}}</p>
+         <span>{{- p.title -}}
     {%- endfor -%}
   {%- endfor -%}
 </div>
+</div>
+
+## Using the gallery approach
+
+<h3 class="gallery-header crimson">Patterns Catalogue></h3>
+<div class="gallery container">
+  {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" -%}
+  {%- for fam in pats_fams -%}
+    <div class="gallery category">
+      <h3>{{- fam.name | append: " patterns" -}}</h3>
+      <div class="gallery item">
+        {%- assign patterns = fam.items -%}
+        {%- for pattern in patterns -%}
+          {%- assign pattern_name = pattern.path | split: '/' | last -%}
+          {%- assign icon_file = pattern.icon_path | append: pattern.icon_name -%}
+          <img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
+          <a href="{{- pattern.url | relative_url -}}"><p class="gallery_item_title">{{- pattern.title-}}</p></a>
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endfor -%}
 </div>
