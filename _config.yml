@@ -63,8 +63,8 @@ include: ["_pages"]
 collections:
   patterns:
     output: true
-    source: _patterns
-    permalink: /:collection/:name
+    source: "_patterns"
+    permalink: /:collection
 
 
 
@@ -74,15 +74,14 @@ defaults:
       path: "_pages"
     values:
       layout: "page"
-      permalink: "/:basename"
+      permalink: /:basename
 
   -
     scope:
-      path: "patterns"
+      path: "_patterns"
       type: "patterns"
     values:
       layout: "page"
-      permalink: "/:basename"
       author: "ealy"
 
 

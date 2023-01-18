@@ -19,3 +19,20 @@
 {%- for p in site.patterns -%}
 <h4><a href="{{ p.url }}">{{- p.title -}}</a></h4>
 {%- endfor -%}
+
+<!--
+<div>
+{%- for fam in site.data.patFam -%}
+<h3>{{ fam.family }}</h3>
+  {% for p in fam.patterns %}
+  <li>{{ p }}</li>
+  {%- endfor -%}
+{%- endfor -%}
+</div>
+
+<ul>
+{%- for p in site.patterns -%}
+<li><a href="{{ p.url | relative_url }}">{{- p.title -}}</a></li>
+{%- endfor -%}
+<ul>
+-->
