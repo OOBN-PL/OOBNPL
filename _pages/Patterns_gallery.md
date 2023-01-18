@@ -23,7 +23,7 @@ This page will show the patterns categorized based on their family and viewed as
   {%- endfor -%}
 </div>
 
-## Show icon names and file names
+<!-- ## Show icon names and file names
 
 <div>
 <ul>
@@ -33,7 +33,7 @@ This page will show the patterns categorized based on their family and viewed as
 <li>{{- pf_name | append: ": " | append: icf -}}</li>
 {%- endfor -%}
 </ul>
-</div>
+</div> -->
 
 ## Patterns with icons
 
