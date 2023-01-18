@@ -23,7 +23,7 @@ This page will show the patterns categorized based on their family and viewed as
 
 <div>
 {%- for fam in site.data.patFam -%}
-<h3>{{- fam.family | append: "patterns" -}}</h3>
+<h3>{{- fam.family | append: " patterns" -}}</h3>
   <ul>
   {%- for p in site.patterns -%}
     {%- if p.family == fam.family -%}
@@ -32,4 +32,20 @@ This page will show the patterns categorized based on their family and viewed as
   {%- endfor -%}
   </ul>
 {%- endfor -%}
+</div>
+
+## Group the patterns based on family using the ```group_by``` filter
+
+<div>
+  {%- assign pats_fams = site.patterns | group_by: 'family' -%}
+  {%- for fam in pats_fams -%}
+  <h3>{{- fam.name | append: " patterns" -}}</h3>
+  <ul>
+    {%- assign pats = fam.items -%}
+    {%- for p in pats -%}
+    <li>{{- p.title -}}</li>
+    {%- endfor -%}
+
+  </ul>
+  {%- endfor -%}
 </div>
