@@ -29,7 +29,8 @@ This page will show the patterns categorized based on their family and viewed as
 <ul>
 {%- for item in site.patterns -%}
 {%- assign icf = item.icon_path | append: item.icon_name -%}
-<li>{{- item.file.basename -}} : {{- icf -}}</li>
+{%- assign pf_name = item.path | split: '/' | last -%}
+<li>{{- pf_name | append: ": " | append: icf -}}</li>
 {%- endfor -%}
 </ul>
 </div>
