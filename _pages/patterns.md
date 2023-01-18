@@ -17,5 +17,7 @@ This page will show the patterns categorized based on their family and viewed as
 </div>
 
 {%- for p in site.patterns -%}
-<h4><a href="{{ p.url }}">{{- p.title -}}</a></h4>
+<ul>
+<li><a href="{{ p.url | relative_url }}">{{- p.title -}}</a></li>
+<ul>
 {%- endfor -%}
