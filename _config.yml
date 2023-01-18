@@ -83,6 +83,7 @@ defaults:
       layout: "page"
       author: "ealy"
       icon_path: "images/picons/"
+      fname: /:name
 
 
 # adding front matter to images
