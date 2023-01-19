@@ -1,9 +1,9 @@
---- 
+---
 family: OOP
 title: "BNFs linking"
-icon_name: bnfs_linking_ico.png 
---- 
- 
+icon_name: bnfs_linking_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** OOP
