@@ -18,12 +18,12 @@ Here is a new line added to the resourced file.
 Trying to use math **Take: 5**
 try:
 
-- $S_{U}$
-- \$S_{U}\$
+- $ S_{U} $
+- \$ S_{U} \$
 - try inline math $$S_{U}$$ is this working.
 
 ## And
 
-- $$max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}$$
-- $max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}$
-- \$max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}\$
+- Is this appearing inline $$max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}$$
+- $ max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s} $
+- \$ max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s} \$
