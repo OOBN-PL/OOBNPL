@@ -15,7 +15,7 @@ Here is a new line added to the resourced file.
 {%- endfor -%}
 </ul> -->
 
-Trying to use math **Take: 3**
+Trying to use math **Take: 4**
 try:
 
 - $S_{U}$
