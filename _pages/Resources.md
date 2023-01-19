@@ -15,13 +15,15 @@ Here is a new line added to the resourced file.
 {%- endfor -%}
 </ul> -->
 
-Trying to use math **Take: 2**
+Trying to use math **Take: 3**
 try:
 
 - $S_{U}$
+- \$S_{U}\$
 - $$S_{U}$$
 
 ## And
 
 - $$max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}$$
 - $max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}$
+- \$max(CPT(d))= d^s \prod_{i=1}^{n} P_{i}^{s}\$
