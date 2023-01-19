@@ -7,7 +7,7 @@ order: "5"
 
 This page will show the patterns categorized based on their family and viewed as a gallery under each category.
 
-## Group the patterns based on family using the ```group_by``` filter
+<!-- ## Group the patterns based on family using the ```group_by``` filter
 
 <div>
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" | reverse -%}
@@ -21,7 +21,7 @@ This page will show the patterns categorized based on their family and viewed as
 
   </ul>
   {%- endfor -%}
-</div>
+</div> -->
 
 <!-- ## Show icon names and file names
 
