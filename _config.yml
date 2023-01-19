@@ -63,8 +63,7 @@ include: ["_pages"]
 collections:
   patterns:
     output: true
-    source: "_patterns"
-    permalink: /:collection
+    permalink: /:path
 
 
 

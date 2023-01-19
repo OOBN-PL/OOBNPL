@@ -11,6 +11,6 @@ Here is a new line added to the resourced file.
 
 <ul>
 {%- for pat in site.patterns -%}
-<li><a href="{{- pat.url -}}">{{- pat.title -}}</a></li>
+<li><a href="{{- pat.url | relative_url -}}">{{- pat.title -}}</a> : {{- pat.path -}} : {{- pat.relative_path -}}</li>
 {%- endfor -%}
 </ul>
