@@ -82,6 +82,7 @@ defaults:
       layout: "pattern_page"
       author: "ealy"
       icon_path: "images/picons/"
+      usemathjax: true
 
 
 # adding front matter to images
