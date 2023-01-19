@@ -15,11 +15,11 @@ Here is a new line added to the resourced file.
 {%- endfor -%}
 </ul> -->
 
-Trying to use math **Take: 5**
+Trying to use math **Take: 6**
 try:
 
-- $ S_{U} $
-- \$ S_{U} \$
+- $S_{U}$
+- \$S_{U}\$
 - try inline math $$S_{U}$$ is this working.
 
 ## And
