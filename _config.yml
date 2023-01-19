@@ -74,6 +74,7 @@ defaults:
     values:
       layout: "page"
       permalink: /:basename
+      usemathjax: true
 
   -
     scope:
