@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Making things happen"
-icon_name: making_things_happen_ico.png 
---- 
- 
+icon_name: making_things_happen_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -107,8 +107,8 @@ The following assumptions are considered when presenting interventions to BNs:
 
 **Related patterns:**
 
-- BNs causality
-- Evidence uncertainty
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/causal_bns.md -%}">BNs Causality</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/evidence_uncertainty.md -%}">Evidence uncertainty</a></span>
 
 ***
 **Design choice and model quality:**

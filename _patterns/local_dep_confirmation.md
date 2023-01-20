@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Local dependence confirmation"
-icon_name: local_dep_confirmation_ico.png 
---- 
- 
+icon_name: local_dep_confirmation_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -53,7 +53,7 @@ The constraints for this solution are as follows:
 
 **Related patterns:**
 
-- BNs Causality
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/causal_bns.md -%}">BNs Causality</a></span>
 
 ***
 

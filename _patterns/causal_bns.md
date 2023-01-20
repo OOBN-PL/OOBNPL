@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "BNs Causality"
-icon_name: causal_bns_ico.png 
---- 
- 
+icon_name: causal_bns_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -16,7 +16,7 @@ icon_name: causal_bns_ico.png
 
 - What are causal BNs?
 - why are they important?
-- How to ensure that the developed model bears a causal representation of the system?  
+- How to ensure that the developed model bears a causal representation of the system?
 
 ***
 
@@ -67,8 +67,8 @@ The constraints for this solution are as follows:
 
 **Related patterns:**
 
-- BN augmented structure
-- Making things happen
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/bn_struct_augm.md -%}">BN augmented structure</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/making_things_happen.md -%}">Making things happen</a></span>
 
 ***
 

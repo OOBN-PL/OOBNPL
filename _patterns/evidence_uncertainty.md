@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Evidence uncertainty"
-icon_name: evidence_uncertainty_ico.png 
---- 
- 
+icon_name: evidence_uncertainty_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -66,7 +66,7 @@ This solution works under the following conditions:
 
 **Related patterns:**
 
-- Making things happen
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/making_things_happen.md -%}">Making things happen</a></span>
 
 ***
 

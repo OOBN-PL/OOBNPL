@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Latent states"
-icon_name: latent_states_ico.png 
---- 
- 
+icon_name: latent_states_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -77,7 +77,7 @@ This solution works under the following conditions:
 
 **Related patterns:**
 
-- Complexity control
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/complexity_control.md -%}">Complexity control</a></span>
 
 ***
 

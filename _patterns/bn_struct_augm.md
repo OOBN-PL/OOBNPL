@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "BN augmented structure"
-icon_name: bn_struct_augm_ico.png 
---- 
- 
+icon_name: bn_struct_augm_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -26,7 +26,7 @@ Determining a BN structure can be a daunting task that is usually performed eith
 
 **Solution:**
 
-Structure learning algorithms are not perfect, and a set of observations related to a system can be explained with a potentially infinite set of theories. Relying solely on Data to inform a BN structure can produce equivalent networks, i.e. networks that contain the same variables with different structures, however, they have the same joint distribution. Consider the example shown in **Fig.1**; Suppose that we wish to represent the relationship between three variables *SDGs (D)* (the achievement of SDGs if that can be measured through a single index), *Sustainability (S)*, and *Resilience (R)*. Learning the structure of such model from data (in a certain national context) can produce three equivalent BNs that are different in structure, however they share the same joint probability distribution. Expanding the joint probability of the three BN structures shown in **Fig.1**, we find that they have the same joint distribution: $$P(D,S,R) = P(R \vert D) P(S \vert D) P(D)$$  
+Structure learning algorithms are not perfect, and a set of observations related to a system can be explained with a potentially infinite set of theories. Relying solely on Data to inform a BN structure can produce equivalent networks, i.e. networks that contain the same variables with different structures, however, they have the same joint distribution. Consider the example shown in **Fig.1**; Suppose that we wish to represent the relationship between three variables *SDGs (D)* (the achievement of SDGs if that can be measured through a single index), *Sustainability (S)*, and *Resilience (R)*. Learning the structure of such model from data (in a certain national context) can produce three equivalent BNs that are different in structure, however they share the same joint probability distribution. Expanding the joint probability of the three BN structures shown in **Fig.1**, we find that they have the same joint distribution: $$P(D,S,R) = P(R \vert D) P(S \vert D) P(D)$$
 
 <figure>
 <img src="./images/eq_nets.png" style="width:100%">
@@ -84,8 +84,8 @@ The constraints for this solution are as follows:
 
 **Related patterns:**
 
-- BNs causality
-- OOBN polymorphism
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/causal_bns.md -%}">BNs causality</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
 
 ***
 

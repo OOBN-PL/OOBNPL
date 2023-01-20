@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Synthetic Nodes"
-icon_name: synthetic_nodes_ico.png 
---- 
- 
+icon_name: synthetic_nodes_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -77,8 +77,8 @@ This solution works under the following conditions:
 
 **Related patterns:**
 
-- Latent states
-- BNs causality
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/latent_states.md -%}">Latent states</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/causal_bns.md -%}">BNs causality</a></span>
 
 ***
 

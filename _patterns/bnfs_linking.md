@@ -128,9 +128,9 @@ The solution proposed by this pattern have the following structure:
 
 **Related patterns:**
 
-- Evidence uncertainty
-- OOBN polymorphism
-- Large BN fragmentation
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/evidence_uncertainty.md -%}">Evidence uncertainty</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/large_bn_fragmentation.md -%}">Large BN fragmentation</a></span>
 
 ***
 

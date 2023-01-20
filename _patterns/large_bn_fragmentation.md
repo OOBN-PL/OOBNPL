@@ -1,9 +1,9 @@
---- 
+---
 family: OOP
 title: "Large BN fragmentation"
-icon_name: large_bn_fragmentation_ico.png 
---- 
- 
+icon_name: large_bn_fragmentation_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** OOP
@@ -90,7 +90,7 @@ The solution proposed by this pattern have the following structure:
 
 **Related patterns:**
 
-- OOBN polymorphism
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
 
 ***
 

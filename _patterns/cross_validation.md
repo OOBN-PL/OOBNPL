@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Cross validation"
-icon_name: cross_validation_ico.png 
---- 
- 
+icon_name: cross_validation_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -52,7 +52,7 @@ This solution works under the following conditions:
 
 **Related patterns:**
 
-- OOBN polymorphism
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
 
 ***
 

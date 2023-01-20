@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Complexity control"
-icon_name: complexity_control_ico.png 
---- 
- 
+icon_name: complexity_control_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -85,8 +85,8 @@ This solution works under the following conditions:
 
 **Related patterns:**
 
-- Generalized canonical
-- Local dependence confirmation
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/generalized_canonical.md -%}">Generalized canonical</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/local_dep_confirmation.md -%}">Local dependence confirmation</a></span>
 
 ***
 
