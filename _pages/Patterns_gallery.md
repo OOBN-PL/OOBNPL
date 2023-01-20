@@ -17,8 +17,8 @@ This page will show the patterns categorized based on their family and viewed as
         {%- assign patterns = fam.items -%}
         {%- for pattern in patterns -%}
           {%- assign icon_file = pattern.icon_path | append: pattern.icon_name -%}
-          <img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
-          <a href="{{- pattern.url | relative_url -}}"><p class="gallery_item_title">{{- pattern.title-}}</p></a>
+          <p><a href="{{- pattern.url | relative_url -}}"><img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
+          <span class="gallery_item_title">{{- pattern.title-}}</span></a></p>
         {%- endfor -%}
       </div>
     </div>

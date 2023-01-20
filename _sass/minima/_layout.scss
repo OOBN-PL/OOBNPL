@@ -280,3 +280,16 @@
     @include relative-font-size(2.25);
   }
 }
+
+.p_icon {
+  margin-right: 5px;
+}
+
+.gallery_item_title {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.gallery_category {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
