@@ -1,7 +1,8 @@
 ---
-title: Use cases
-order: "1"
+title: Methodology
+order: "01"
 ---
+
 
 A user of this OOBN PL will fall under one of two categories:
 <ol type="a">
