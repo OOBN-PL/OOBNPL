@@ -38,9 +38,6 @@ The structure for this solution is as follows:
   <img src="./images/Model_blueprint.png" alt="Model Blueprint diagram" class="pat_large_img">
 </a>
 </p>
-<!-- <p align= "center">
-<img src="./images/Model_blueprint.png" style="width:70%" class="pat_large_img">
-</p> -->
 <b>Fig.1</b> The contents of the model documentation and the phases they map to .
 
 ***
