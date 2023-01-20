@@ -260,8 +260,9 @@
 
 
 .p_icon {
-  width: 85px;
-  height: 85px;
+  width: 75px;
+  height: 75px;
+  margin-right: 5px;
 }
 
 .picon_container {
@@ -279,10 +280,6 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
-}
-
-.p_icon {
-  margin-right: 5px;
 }
 
 .gallery_item_title {
@@ -305,3 +302,25 @@
 .struct_img:hover {
   transform: scale(1);
 }
+
+.refs_section {
+  color: #415a77;
+}
+
+.ref_title {
+  color: #1b263b;
+}
+
+.intxt_ref {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #474747;
+}
+
+#refs {
+  background-color: #dee2e6;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 100px;
+}
+
