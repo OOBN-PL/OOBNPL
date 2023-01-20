@@ -1,9 +1,9 @@
---- 
+---
 family: BN
 title: "Almost never"
-icon_name: almost_never_ico.png 
---- 
- 
+icon_name: almost_never_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
@@ -54,7 +54,7 @@ Applying this solution will make the diagnostic accuracy of the BN becomes less 
 
 **Related patterns:**
 
-- OOBN polymorphism
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
 
 ***
 

@@ -295,3 +295,13 @@
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.struct_img {
+  height: 1000;
+  width: 800;
+  object-fit: contain;
+}
+
+.struct_img:hover {
+  transform: scale(1);
+}

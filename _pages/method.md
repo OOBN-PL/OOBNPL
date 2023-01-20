@@ -18,3 +18,9 @@ A user of this OOBN PL will fall under one of two categories:
 {%- endif -%}
 {%- endfor -%}
 </ul>
+
+## Linking to other pages
+
+<div>
+<a href="{{- site.baseurl -}}{%- link _pages/pl_structure.md -%}">structure</a>
+</div>

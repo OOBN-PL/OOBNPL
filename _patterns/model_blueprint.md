@@ -1,9 +1,9 @@
---- 
+---
 family: Mod
 title: "Model Blueprint"
-icon_name: model_blueprint_ico.png 
---- 
- 
+icon_name: model_blueprint_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** Mod
@@ -48,13 +48,13 @@ The constraints for this solution are as follows:
 
 **Related patterns:**
 
-- BNFs linking
-- Model assumptions statement
-- Large BN fragmentation
-- OOBN polymorphism
-- Complexity control
-- Generalized Canonical
-- Making things happen
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/bnfs_linking.md -%}">BNFs linking</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/model_assumption_statement.md -%}">Model assumptions statement</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/large_bn_fragmentation.md -%}">Large BN fragmentation</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/complexity_control.md -%}">Complexity control</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/generalized_canonical.md -%}">Generalized Canonical</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/making_things_happen.md -%}">Making things happen</a></span>
 
 ***
 

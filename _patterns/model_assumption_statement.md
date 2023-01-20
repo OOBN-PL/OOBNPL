@@ -125,9 +125,9 @@ The solution proposed by this pattern have the following structure:
 
 **Related patterns:**
 
-- OOBN polymorphism
-- Large BN fragmentation
-- BN augmented structure
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/large_bn_fragmentation.md -%}">Large BN fragmentation</a></span>
+- <span><a href="{{- site.baseurl -}}{%- link _patterns/bn_struct_augm.md -%}">BN augmented structure</a></span>
 
 ***
 

@@ -3,8 +3,8 @@ title: PL structure
 order: "03"
 ---
 
-This is the front page of the OOBNPL website and we here is the OOBNPL structure:
-<!--
-![OOBN PL structure](images/PL_structure.png "The structure of the OOBN PL")
--->
-<img src="images/PL_structure.png" alt="The structure of the OOBN PL" height=1000>
+Here is the OOBNPL structure:
+
+<a href="images/PL_structure.png" onclick="window.open(this.href); return false;">
+  <img src="images/PL_structure.png" alt="image" class="struct_img">
+</a>
