@@ -34,8 +34,13 @@ It is expected that the contents of the model use section is the type that will 
 The structure for this solution is as follows:
 
 <p align= "center">
-<img src="./images/Model_blueprint.png" style="width:70%">
+<a href="./images/Model_blueprint.png" onclick="window.open(this.href); return false;">
+  <img src="./images/Model_blueprint.png" alt="Model Blueprint diagram" class="pat_large_img">
+</a>
 </p>
+<!-- <p align= "center">
+<img src="./images/Model_blueprint.png" style="width:70%" class="pat_large_img">
+</p> -->
 <b>Fig.1</b> The contents of the model documentation and the phases they map to .
 
 ***
