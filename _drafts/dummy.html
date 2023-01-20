@@ -126,3 +126,14 @@
 
 <!-- linking pages from other pages -->
 <!-- <span><a href="{{- site.baseurl -}}{%- link _patterns/oobn_polymorphism.md -%}">OOBN polymorphism</a></span> -->
+
+
+<!-- order pages based on the "order field in the front matter" -->
+<!-- {%- assign ps = site.pages | sort_natural: "order" -%}
+<ul>
+{%- for p in ps -%}
+{%- if p.order -%}
+<li>{{- p.title -}}</li>
+{%- endif -%}
+{%- endfor -%}
+</ul> -->
