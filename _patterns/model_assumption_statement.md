@@ -1,9 +1,9 @@
---- 
+---
 family: Mod
 title: "Model assumptions statement"
-icon_name: model_assumption_statement_ico.png 
---- 
- 
+icon_name: model_assumption_statement_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** Mod

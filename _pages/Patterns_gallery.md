@@ -12,7 +12,7 @@ This page will show the patterns categorized based on their family and viewed as
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" -%}
   {%- for fam in pats_fams -%}
     <div class="gallery category">
-      <h2>{{- fam.name | append: " patterns" -}}</h2>
+      <span class= "fam_title"><h2>{{- fam.name | append: " patterns" -}}</h2></span>
       <div class="gallery item">
         {%- assign patterns = fam.items -%}
         {%- for pattern in patterns -%}

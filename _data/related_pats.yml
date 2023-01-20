@@ -1,0 +1,12 @@
+pats_ralted:
+  pattern: Model assumptions statement:
+  related:
+    - OOBN polymorphism
+    - Large BN fragmentation
+    - BN augmented structure
+
+  pattern: BNFs linking:
+  related:
+    - Evidence uncertainty
+    - OOBN polymorphism
+    - Large BN fragmentation
