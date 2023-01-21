@@ -13,7 +13,7 @@ OOBN PL is a Github hosted project, so contributing to it is similar to contribu
 
 Either way, visit the OOBN PL <span><a href="https://github.com/OOBN-PL/OOBNPL"><i>online repo</i></a><span> and take it from there.
 
-Finally, if this was not convincing enough for you to contribute, may this great (50-ish mins) lecture on "Open source knowledge development" will.
+Finally, if this was not convincing enough for you to contribute, maybe this great (50-ish mins) lecture on "Open source knowledge development" will.
 
 <div style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zwRdO9_GGhY" frameborder="0" allowfullscreen></iframe>
