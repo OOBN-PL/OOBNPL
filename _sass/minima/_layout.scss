@@ -314,13 +314,45 @@
 .intxt_ref {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  color: #474747;
+  color: #7a7a7a;
+  font-size: 14px;
 }
 
 #refs {
-  background-color: #dee2e6;
-  border-radius: 10px;
+  background-color: #f1f4f9;
+  /*#dee2e6;*/
+  border-radius: 5px;
   padding: 5px;
   margin-top: 100px;
 }
 
+
+/* styling tables */
+
+table   {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #E0E0E0;
+  color: #3D3D3D;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 2px solid;
+  padding: 10px;
+}
+
+td:nth-child(1) {
+  width: 20%;
+  text-align: center;
+  font-family: 'Type Machine', monospace;
+}
+
+td:nth-child(2) {
+  text-align: left;
+  font-family: 'Comic Neue', cursive;
+}

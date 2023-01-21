@@ -1,5 +1,5 @@
 ---
-title: Patterns Catalogue
+title: Patterns Details
 order: "05"
 ---
 
@@ -7,12 +7,22 @@ order: "05"
 
 This page will show the patterns categorized based on their family and viewed as a gallery under each category.
 
+## Pattern Anatomy
+
+Each of the patterns has the following anatomy, this represents that template that needs to be filled for any additional patterns that will be added to the OOBN PL:
+
+<div class="pattern_template" id="pAnatomyTable">
+    {%- capture mdTable -%}{%- include pat_template_table.md -%}{%- endcapture -%}
+    {{- mdTable | markdownify -}}
+</div>
+
+## Patterns Catalogue
 <!-- <h3 class="gallery-header crimson">Patterns Catalogue</h3> -->
 <div class="gallery container">
   {%- assign pats_fams = site.patterns | group_by: 'family' | sort: "size" -%}
   {%- for fam in pats_fams -%}
     <div class="gallery category">
-      <span class= "fam_title"><h2>{{- fam.name | append: " patterns" -}}</h2></span>
+      <span class= "fam_title"><h3>{{- fam.name | append: " patterns" -}}</h3></span>
       <div class="gallery item">
         {%- assign patterns = fam.items -%}
         {%- for pattern in patterns -%}
