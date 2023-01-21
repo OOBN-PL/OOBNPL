@@ -1,5 +1,5 @@
 ---
-title: PL structure
+title: Structure
 order: "03"
 ---
 

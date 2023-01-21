@@ -329,7 +329,7 @@
 
 /* styling tables */
 
-table   {
+table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -355,4 +355,24 @@ td:nth-child(1) {
 td:nth-child(2) {
   text-align: left;
   font-family: 'Comic Neue', cursive;
+}
+
+blockquote {
+  font-size: 1.2em;
+  color: #3D3D3D;
+  text-align: center;
+  margin: 20px;
+  background-color: #F5F5F5;
+  padding: 10px;
+  max-width: 600px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+
+cite {
+  font-size: 0.9em;
+  color: #3D3D3D;
+  display: block;
+  text-align: right;
 }
