@@ -32,6 +32,9 @@ author: Ebrahim Aly
 title_logo: /images/pl_logo.png
 license: true
 
+
+# Google analytics set-up
+google_analytics: G-49J1NY3QBR
 # Build settings
 # inactivated the theme below and using its files by my own
 #theme: minima
