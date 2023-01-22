@@ -11,7 +11,7 @@ OOBN PL is a Github hosted project, so contributing to it is similar to contribu
 
 - **Opening a pull request:** in which you actually start implementing the changes yourself and fix broken stuff. Also, if you started working on a contribution that was already asked for or discussed.
 
-Either way, visit the OOBN PL <span><a href="https://github.com/OOBN-PL/OOBNPL"><i>online repo</i></a><span> and take it from there.
+Either way, visit the OOBN PL <span><a target="_blank" href="https://github.com/OOBN-PL/OOBNPL"><i>online repo</i></a><span> and take it from there!
 
 Finally, if this was not convincing enough for you to contribute, maybe this great (50-ish mins) lecture on "Open source knowledge development" will.
 
