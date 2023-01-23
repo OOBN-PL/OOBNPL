@@ -3,7 +3,7 @@ title: Publications
 order: "09"
 ---
 
-The full details of developing the proposed OOBN PL (theory, methodology, and a case study), in addition to a comprehensive framework for validating pattern languages at large, are published in:
+The full details of developing the proposed OOBN PL (theory, methodology, and a case study), in addition to a comprehensive framework for validating pattern languages at large, and how applying the patterns included in the PL will affect the final model's quality are published in:
 
 <section id="myPaper" class="myPaper_section">
     <!-- <h4 class="refs_title">References</h4> -->
