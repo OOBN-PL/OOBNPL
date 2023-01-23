@@ -25,7 +25,7 @@ Each of the patterns has the following anatomy, this represents that template th
         {%- assign patterns = fam.items -%}
         {%- for pattern in patterns -%}
           {%- assign icon_file = pattern.icon_path | append: pattern.icon_name -%}
-          <p><a href="{{- pattern.url | relative_url -}}"><img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
+          <p><a target="_blank" href="{{- pattern.url | relative_url -}}"><img class="p_icon" src="{{- icon_file | relative_url -}}" alt="{{- pattern.title -}}">
           <span class="gallery_item_title">{{- pattern.title-}}</span></a></p>
         {%- endfor -%}
       </div>
