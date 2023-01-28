@@ -16,7 +16,7 @@ This work is motivated by recognizing the modeling workflow's importance and rol
 
 ## Use cases
 
-Typical use cases for OOBN PL will be one of the following scenarios (or a combination fo them):
+Typical use cases for OOBN PL will be one of the following scenarios (or a combination of them):
 
 - A modeler who attempts to build an OOBN model without much experience with OOBNs; in this case, OOBN PL can be used as a guide for model building that walks the modeler through the steps that need to be followed in order to finish the model as well as providing her/him with solutions for the main problems that are usually encountered at each step.
 
