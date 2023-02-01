@@ -8,9 +8,15 @@ icon_name: complexity_control_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2; 3
+**Modeling phase:**
 
-**Modeling step:** 6; 7
+    2. The conceptualization phase of a system of interest
+    3. The technical implementation
+
+**Modeling step:**
+
+        6. Choice of estimation performance criteria and technique
+        7. Identification of model structure and parameters' values
 
 **Problem:**
 
@@ -52,7 +58,7 @@ to changes in the originally parent nodes, e.g. nodes $X_1$ to $X_5$.
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure in a
 BN:
 
@@ -68,7 +74,7 @@ than $y$.
 
 ***
 
-**Constraints**
+**Constraints:**
 
 This solution works under the following conditions:
 

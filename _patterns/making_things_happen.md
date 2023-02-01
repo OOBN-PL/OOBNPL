@@ -8,9 +8,15 @@ icon_name: making_things_happen_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 3; 5
+**Modeling phase:**
 
-**Modeling step:** 7; 9
+    3. The technical implementation
+    5. Communication of model findings
+
+**Modeling step:**
+
+    7. Identification of model structure and parameters' values
+    9. Quantification of uncertainty
 
 **Problem:**
 
@@ -60,7 +66,7 @@ In BN models, interventions can be used for several purposes. The most common ar
 
 ***
 
-**Structure**
+**Structure:**
 The structure for this solution can be shown through the following example:
 
 Consider the model in <b>Figure 2</b> that aims at representing the impacts of innovation, economic efficiency, and equity on the social and environmental components of sustainability. Assume that there is a new policy to be introduced that will reduce some environment related restrictions on industry, and as a consequence will have negative impacts on the environmental component of sustainability. In order to model this intervention, we follow the steps mentioned in the solution section.
@@ -89,7 +95,7 @@ Consider the model in <b>Figure 2</b> that aims at representing the impacts of i
 
 ***
 
-**Constraints**
+**Constraints:**
 
 The following assumptions are considered when presenting interventions to BNs:
 

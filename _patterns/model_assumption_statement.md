@@ -8,9 +8,17 @@ icon_name: model_assumption_statement_ico.png
 
 **Pattern language family:** Mod
 
-**Modeling phase:** 1; 2
+**Modeling phase:**
 
-**Modeling step:** 1; 2; 3; 4
+    1. Defining modeling goals
+    2. The conceptualization phase of system of interest
+
+**Modeling step:**
+
+    1. Definition of the model purpose
+    2. Specification of the modeling context
+    3. Conceptualization of the system, specification of data and other prior knowledge
+    4. Selection of model features and family
 
 **Problem:**
 
@@ -47,7 +55,7 @@ Explicitly stating the model assumptions, particularly the ones that directly af
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure:
 
 - In an OOBN **Type-I** will mainly affect the model structure on both
@@ -119,7 +127,8 @@ The solution proposed by this pattern have the following structure:
 
 ***
 
-**Constraints**
+**Constraints:**
+NA
 
 ***
 

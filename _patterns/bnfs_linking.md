@@ -9,9 +9,11 @@ icon_name: bnfs_linking_ico.png
 **Pattern language family:** OOP
 
 **Modeling phase:**
+
     2. The conceptualization phase of a system of interest
 
 **Modeling step:**
+
     3. Conceptualization of the system, specification of data and other prior knowledge
     5. Choice of how model structure and parameter values are to be determined
 
@@ -65,7 +67,7 @@ encapsulation and abstraction OOP concepts.
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure:
 
 - Consider an OOBN composed of three BNFs; A, B, and C.
@@ -125,8 +127,9 @@ The solution proposed by this pattern have the following structure:
 
 ***
 
-**Constraints**
+**Constraints:**
 NA
+
 ***
 
 **Related patterns:**

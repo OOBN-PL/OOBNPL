@@ -8,9 +8,14 @@ icon_name: local_dep_confirmation_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2
+**Modeling phase:**
 
-**Modeling step:** 3; 5
+    2. The conceptualization phase of a system of interest
+
+**Modeling step:**
+
+    3.  Conceptualization of the system, specification of data and other prior knowledge
+    5. Choice of how model structure and parameter values are to be determined
 
 **Problem:**
 One of the fundamental assumptions underlying BNs is local dependence, i.e. the parents of a single node or the child nodes of a parent node should be independent and uncorrelated.
@@ -27,7 +32,7 @@ This problem is solved by testing local structures for correlation before runnin
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure in a BN:
 
 - In the shown networks in **Fig.1**, correlation between $X_1$ and $X_2$ is $>r$.
@@ -43,7 +48,7 @@ The solution proposed by this pattern have the following structure in a BN:
 
 ***
 
-**Constraints**
+**Constraints:**
 
 The constraints for this solution are as follows:
 

@@ -8,9 +8,16 @@ icon_name: evidence_uncertainty_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 3; 4; 5
+**Modeling phase:**
 
-**Modeling step:** 7; 9
+    3. The technical implementation
+    4. QA/QC
+    5. Communication of model findings
+
+**Modeling step:**
+
+    7. Identification of model structure and parameters' values
+    9. Quantification of uncertainty
 
 **Problem:**
 
@@ -36,7 +43,7 @@ wish to add the uncertain evidence.
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure in a
 BN:
 
@@ -55,7 +62,7 @@ BN:
 
 ***
 
-**Constraints**
+**Constraints:**
 
 This solution works under the following conditions:
 

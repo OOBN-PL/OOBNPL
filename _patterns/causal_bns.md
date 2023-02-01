@@ -8,9 +8,16 @@ icon_name: causal_bns_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 1; 2
+**Modeling phase:**
 
-**Modeling step:** 1; 3; 4
+    1. Defining modeling goals
+    2. The conceptualization phase of a system of interest
+
+**Modeling step:**
+
+    1. Definition of the model purpose
+    3. Conceptualization of the system, specification of data and other prior knowledge
+    4. Selection of model features and family
 
 **Problem:**
 
@@ -54,14 +61,13 @@ Additionally, not all structure learning algorithms are built as causal discover
 
 ***
 
-**Structure**
-The structure for this solution is as follows:
+**Structure:**
+NA
 
 ***
 
-**Constraints**
-
-The constraints for this solution are as follows:
+**Constraints:**
+NA
 
 ***
 

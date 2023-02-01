@@ -1,16 +1,22 @@
---- 
+---
 family: OOP
 title: "OOBN polymorphism"
-icon_name: oobn_polymorphism_ico.png 
---- 
- 
+icon_name: oobn_polymorphism_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** OOP
 
-**Modeling phase:** 2
+**Modeling phase:**
 
-**Modeling step:** 4; 5; 6
+    2. The conceptualization phase of a system of interest
+
+**Modeling step:**
+
+    4. Selection of model features and family
+    5. Choice of how model structure and parameter values are to be determined
+    6. Choice of estimation performance criteria and technique
 
 **Problem:**
 
@@ -39,7 +45,7 @@ which increases its reusability.
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure:
 
 - Consider the task of discretizing a continues variable in one of the
@@ -61,11 +67,13 @@ The solution proposed by this pattern have the following structure:
 
 ***
 
-**Constraints**
+**Constraints:**
+NA
 
 ***
 
 **Related patterns:**
+NA
 
 ***
 

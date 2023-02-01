@@ -8,9 +8,15 @@ icon_name: synthetic_nodes_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2; 3
+**Modeling phase:**
 
-**Modeling step:** 5; 7
+    2. The conceptualization phase of a system of interest
+    3. The technical implementation
+
+**Modeling step:**
+
+    5. Choice of how model structure and parameter values are to be determined
+    7. Identification of model structure and parameters' values
 
 **Problem:**
 
@@ -32,7 +38,7 @@ Applying this pattern enable the user to represent relationships that are not fu
 
 ***
 
-**Structure**
+**Structure:**
 The solution proposed by this pattern have the following structure in a
 BN:
 
@@ -65,7 +71,7 @@ BN:
 
 ***
 
-**Constraints**
+**Constraints:**
 
 This solution works under the following conditions:
 

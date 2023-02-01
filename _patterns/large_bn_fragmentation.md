@@ -8,9 +8,15 @@ icon_name: large_bn_fragmentation_ico.png
 
 **Pattern language family:** OOP
 
-**Modeling phase:** 1; 2
+**Modeling phase:**
 
-**Modeling step:** 2; 3
+    1. Defining modeling goals
+    2. The conceptualization phase of a system of interest
+
+**Modeling step:**
+
+    2. Specification of the modeling context
+    3. Conceptualization of the system, specification of data and other prior knowledge
 
 **Problem:**
 How to determine the composing network fragments of a BN representing a
@@ -27,7 +33,7 @@ Applying this pattern enables the modeler to decompose large networks into small
 
 ***
 
-**Structure**
+**Structure:**
 
 The solution proposed by this pattern have the following structure:
 
@@ -84,7 +90,8 @@ The solution proposed by this pattern have the following structure:
 
 ***
 
-**Constraints**
+**Constraints:**
+NA
 
 ***
 

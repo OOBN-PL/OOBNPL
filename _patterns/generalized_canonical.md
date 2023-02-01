@@ -1,16 +1,24 @@
---- 
+---
 family: BN
 title: "Generalized Canonical"
-icon_name: generalized_canonical_ico.png 
---- 
- 
+icon_name: generalized_canonical_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2; 3; 4
+**Modeling phase:**
 
-**Modeling step:** 5; 7; 9
+    2. The conceptualization phase of a system of interest
+    3. The technical implementation
+    4. QA/QC
+
+**Modeling step:**
+
+    5. Choice of how model structure and parameter values to be determined
+    7. Identification of model structure and parameters' values
+    9. Quantification of uncertainty
 
 **Problem:**
 Increased complexity of a node (increased number of parameters) due to being the child of several nodes. This happens when a variable has several possible causes. In this case the number of parameters for the node representing a variable $y$ that has $N$ parents:
@@ -38,7 +46,7 @@ $$T_y = S_y \cdot \Sigma_{i=1}^{N} {S_{x_i}} + S_y$$
 
 ***
 
-**Structure**
+**Structure:**
 The structure for this solution is as follows:
 
 <p align= "center">
@@ -48,7 +56,7 @@ The structure for this solution is as follows:
 
 ***
 
-**Constraints**
+**Constraints:**
 
 The constraints for this solution are as follows:
 
@@ -58,6 +66,7 @@ The constraints for this solution are as follows:
 ***
 
 **Related patterns:**
+NA
 
 ***
 

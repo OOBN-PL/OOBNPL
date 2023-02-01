@@ -8,9 +8,14 @@ icon_name: cross_validation_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 4
+**Modeling phase:**
 
-**Modeling step:** 8; 10
+    4. QA/QC
+
+**Modeling step:**
+
+    8. Model verification including diagnostic testing
+    10. Model evaluation and testing
 
 **Problem:**
 
@@ -37,11 +42,12 @@ Applying this solution allow the accuracy of the network to be reported as the B
 
 ***
 
-**Structure**
+**Structure:**
+NA
 
 ***
 
-**Constraints**
+**Constraints:**
 
 This solution works under the following conditions:
 

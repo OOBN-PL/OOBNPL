@@ -8,9 +8,18 @@ icon_name: model_blueprint_ico.png
 
 **Pattern language family:** Mod
 
-**Modeling phase:** 1; 2; 4
+**Modeling phase:**
 
-**Modeling step:** 1; 2; 3; 10
+    1. Defining modeling goals
+    2. The conceptualization phase of a system of interest
+    4. QA/QC
+
+**Modeling step:**
+
+    1. Definition of the model purpose
+    2. Specification of the modeling context
+    3. Conceptualization of the system, specification of data and other prior
+    10. Model evaluation and testing
 
 **Problem:**
 
@@ -30,7 +39,7 @@ Clear documentation that describe the model and the choices made during the mode
 It is expected that the contents of the model use section is the type that will be subjected to regular updates as it includes information about the model's runtime comments, performance, and scenarios. The specific data that should be reported for each of the above mentioned three types are shown in the structure section below.
 ***
 
-**Structure**
+**Structure:**
 The structure for this solution is as follows:
 
 <p align= "center">
@@ -42,9 +51,8 @@ The structure for this solution is as follows:
 
 ***
 
-**Constraints**
-
-The constraints for this solution are as follows:
+**Constraints:**
+NA
 
 ***
 

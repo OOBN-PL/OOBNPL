@@ -8,9 +8,15 @@ icon_name: latent_states_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2; 3
+**Modeling phase:**
 
-**Modeling step:** 6; 7
+    2. The conceptualization phase of a system of interest
+    3. The technical implementation
+
+**Modeling step:**
+
+    6. Choice of estimation performance criteria and technique
+    7. Identification of model structure and parameters' values
 
 **Problem:**
 
@@ -59,11 +65,12 @@ Applying this solution will result in new parameters will be acquired for the la
 
 ***
 
-**Structure**
+**Structure:**
+NA
 
 ***
 
-**Constraints**
+**Constraints:**
 
 This solution works under the following conditions:
 
