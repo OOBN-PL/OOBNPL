@@ -1,16 +1,19 @@
---- 
+---
 family: OOP
 title: "BNFs linking"
-icon_name: bnfs_linking_ico.png 
---- 
- 
+icon_name: bnfs_linking_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** OOP
 
-**Modeling phase:** 2
+**Modeling phase:**
+    2. The conceptualization phase of a system of interest
 
-**Modeling step:** 3; 5
+**Modeling step:**
+    3.Conceptualization of the system, specification of data and other prior knowledge
+    5. Choice of how model structure and parameters values are to be determined
 
 **Problem:**
 

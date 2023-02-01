@@ -1,16 +1,18 @@
---- 
+---
 family: BN
 title: "Almost never"
-icon_name: almost_never_ico.png 
---- 
- 
+icon_name: almost_never_ico.png
+---
+
 **Version:** 1.0.0
 
 **Pattern language family:** BN
 
-**Modeling phase:** 3
+**Modeling phase:**
+    3. The technical implementation
 
-**Modeling step:** 7
+**Modeling step:**
+    7. Identification of model structure and parameters' values
 
 **Problem:**
 
@@ -44,11 +46,13 @@ Applying this solution will make the diagnostic accuracy of the BN becomes less 
 
 ***
 
-**Structure**
+**Structure:**
+NA
 
 ***
 
-**Constraints**
+**Constraints:**
+NA
 
 ***
 
