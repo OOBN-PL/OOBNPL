@@ -8,9 +8,11 @@ icon_name: bn_struct_augm_ico.png
 
 **Pattern language family:** BN
 
-**Modeling phase:** 2
+**Modeling phase:**
+    2. The conceptualization phase of a system of interest
 
-**Modeling step:** 5
+**Modeling step:**
+    5. Choice of how model structure and parameter values are to be determined
 
 **Problem:**
 
