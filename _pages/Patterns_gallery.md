@@ -32,3 +32,5 @@ Each of the patterns has the following anatomy, this represents that template th
     </div>
   {%- endfor -%}
 </div>
+
+

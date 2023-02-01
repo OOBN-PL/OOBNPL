@@ -90,6 +90,7 @@ defaults:
       author: "ealy"
       icon_path: "images/picons/"
       usemathjax: true
+      comments: true
 
 
 # adding front matter to images
