@@ -126,6 +126,7 @@ The solution proposed by this pattern have the following structure:
 ***
 
 **Constraints**
+NA
 
 ***
 
