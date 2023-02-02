@@ -24,6 +24,7 @@ icon_name: model_blueprint_ico.png
 **Problem:**
 
 Modelers usually neglect documenting the underlying architecture and the main features of their models which negatively affect the models reusability, transparency, as well as decreasing the confidence in it.
+
 ***
 
 **Solution:**
