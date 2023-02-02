@@ -38,6 +38,7 @@ Clear documentation that describe the model and the choices made during the mode
 3. Data related to the model use.
 
 It is expected that the contents of the model use section is the type that will be subjected to regular updates as it includes information about the model's runtime comments, performance, and scenarios. The specific data that should be reported for each of the above mentioned three types are shown in the structure section below.
+
 ***
 
 **Structure:**
