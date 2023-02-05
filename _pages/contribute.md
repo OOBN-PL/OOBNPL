@@ -1,11 +1,12 @@
 ---
 title: Contribute
 order: "11"
+comments: true
 ---
 
 There are many reasons that can motivate your contribution to this project. First and foremost, is improving the OOBN PL either by proposing changes to its patterns and structure, or by proposing additional patterns to expand the PL. Another compelling reason is that contribution gives you an opportunity to collaborate with other like-minded modelers so we can learn from each other and hone our skills to be able to help the world overcome its greatest challenges.
 
-The fastest and simplest way to contribute is to use the comments section below each pattern. In addition to commenting on patterns, OOBN PL is a Github hosted project, so contributing to it is similar to contributing to other projects hosted on such a platform. A couple of ways to do that are:
+The fastest, and simplest, way to contribute is to share your ideas at the comments section below this site pages (and below each pattern as well). In addition to commenting on patterns, OOBN PL is a Github hosted project, so contributing to it is similar to contributing to other projects hosted on such a platform. A couple of ways to do that are:
 
 - **Opening an issue:** this is to report an error, e.g. a mistake in one of the patterns, discuss an idea with the community, or to propose a new feature, e.g. an improvement for one of the patterns or a new pattern.
 

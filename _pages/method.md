@@ -1,6 +1,7 @@
 ---
 title: Methodology
 order: "01"
+comments: true
 ---
 
 A pattern language, in its essence, is the integration of two main components; a collection of patterns and a structure that connects these patterns in a unique arrangement. Here we describe the approach that was followed to determine both the PL structure and to compose the patterns included in it. The outcomes of the process described herein, i.e. the <span><a href="{{- site.baseurl -}}{%- link _pages/pl_structure.md -%}">PL structure</a></span> and the <span><a href="{{- site.baseurl -}}{%- link _pages/Patterns_gallery.md -%}">PL patterns</a></span> can be viewed in the respective pages.

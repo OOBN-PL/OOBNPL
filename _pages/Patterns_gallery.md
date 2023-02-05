@@ -1,6 +1,7 @@
 ---
 title: Patterns
 order: "05"
+comments: true
 ---
 
  Here you meet the building blocks of the OOBN PL, i.e. the patterns. First, the anatomy of each pattern is introduced; the anatomy reveals the sections composing the patterns and the information included in each of them. New patterns added to this OOBN PL need to follow the template provided in the anatomy and include the data it describes. Following the anatomy is the patterns catalogue, which lists all the patterns comprising the OOBN PL categorized by the family they belong to.
